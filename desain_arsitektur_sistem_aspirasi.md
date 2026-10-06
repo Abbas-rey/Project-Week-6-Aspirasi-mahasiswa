@@ -1,5 +1,5 @@
 # Dokumen Desain Layanan: Sistem Aspirasi Mahasiswa
-**Tim:** [Nama Kelompok]
+**Tim:** Projek Aspirasi Siswa
 **Fokus Fitur Utama:** Pengiriman Aspirasi (Mode Terbuka & Anonim)
 
 ## 1. Kebutuhan Terpilih dan Asumsi
