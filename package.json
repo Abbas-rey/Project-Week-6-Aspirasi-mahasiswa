@@ -5,6 +5,7 @@
   "type": "module",
   "main": "src/aspirationManager.js",
   "scripts": {
+    "start": "node server.js",
     "test": "node --test test/aspiration.test.js"
   },
   "keywords": ["rpl", "software-construction", "asma"],
