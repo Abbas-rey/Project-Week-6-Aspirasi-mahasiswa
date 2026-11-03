@@ -288,3 +288,34 @@ Proyek ini dibangun menggunakan **Node.js** murni (ES Modules) tanpa dependensi 
    ℹ pass 4
    ℹ fail 0
    ```
+
+
+3. **Jalankan Antarmuka Web Lokal:**
+   ```bash
+   npm start
+   ```
+   Akses antarmuka melalui browser pada URL: `http://localhost:3000`
+
+---
+
+## 7. Dokumentasi Antarmuka Web (Fitur FR-7)
+
+Berikut adalah tangkapan layar (*screenshot*) implementasi antarmuka web interaktif fitur **FR-7 (Melihat Daftar Aspirasi oleh Akademisi)** yang menerapkan prinsip *good coding practices*, informatif, serta berdesain *clean flat* (tanpa gradasi):
+
+![Antarmuka Fitur FR-7 Portal Peninjauan Aspirasi Akademisi](docs/assets/tampilan-web-fr7.png)
+
+### Rincian Fitur Antarmuka yang Diimplementasikan:
+1. **Header & Akun Akademisi:** Menampilkan informasi peninjau aktif (`Dr. Dewi Khairani, M.Sc.` - Kaprodi Teknik Informatika).
+2. **Simulator Peran (Role Switcher):** Memungkinkan pengujian hak akses secara langsung antara *Akademisi* (akses diizinkan) dan *Mahasiswa* (ditolak dengan status `403 Forbidden`).
+3. **Kartu Metrik & Statistik (5 Indikator):**
+   - **Total Aspirasi Masuk** (3 data terdaftar).
+   - **Menunggu Respon** (2 laporan berstatus Diterima / Sedang Ditinjau).
+   - **Sedang Diproses** (1 laporan sedang ditindaklanjuti).
+   - **Terselesaikan** (0 laporan selesai).
+   - **Mode Anonim** (2 laporan dengan identitas mahasiswa terlindungi).
+4. **Panel Filter & Pencarian:** Fitur pencarian kata kunci (*live search*) pada judul dan detail keluhan, filter dropdown per kategori (*Fasilitas, Akademik, Dosen, Administrasi, Sarana Prasarana*), filter status penanganan, serta tombol *Reset Filter*.
+5. **Tabel Data Aspirasi & Proteksi Privasi:**
+   - Kolom ID Aspirasi, Kategori, Judul, Identitas Pengirim, Waktu Masuk, Status, dan Tombol Aksi Rincian.
+   - **Mode Anonim:** Ditandai dengan badge merah solid bertanda gembok (`Mode Anonim`) dan teks `Disembunyikan (Mode Anonim)`, menjamin kerahasiaan identitas mahasiswa sesuai aturan bisnis SRS UTS.
+   - **Mode Nama Terang:** Ditandai dengan badge hijau solid (`Nama Terang`) dan menampilkan Nama Lengkap serta NIM resmi mahasiswa pelapor.
+6. **Desain Visual Clean Flat (Tanpa Gradasi):** Seluruh elemen antarmuka menggunakan palet warna solid bernuansa akademik modern yang rapi, kontras tinggi, dan nyaman dibaca.
