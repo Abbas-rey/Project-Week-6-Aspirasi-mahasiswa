@@ -1,0 +1,13 @@
+{
+  "name": "asma-software-construction",
+  "version": "1.0.0",
+  "description": "Implementasi Fitur FR-7 Sistem Aspirasi Mahasiswa (ASMA) - UIN Syarif Hidayatullah Jakarta",
+  "type": "module",
+  "main": "src/aspirationManager.js",
+  "scripts": {
+    "test": "node --test test/aspiration.test.js"
+  },
+  "keywords": ["rpl", "software-construction", "asma"],
+  "author": "Kelompok RPL ASMA",
+  "license": "ISC"
+}
